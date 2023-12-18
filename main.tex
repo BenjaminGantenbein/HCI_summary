@@ -1,0 +1,72 @@
+\documentclass[10pt, landscape, a4paper]{article}
+\usepackage{geometry}[landscape]
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{amsmath} 
+\usepackage{amssymb}
+\usepackage{ccicons}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{titlesec} % Include titlesec package
+
+
+\titleformat{\section}
+	{\normalfont\large\bfseries}{\thesection}{1em}{}
+
+\titlespacing*{\section}
+	{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+
+	
+\pagestyle{plain}
+
+% Set page margins
+\geometry{top=.8cm, left=.8cm, right=.8cm, bottom=1.3cm}
+
+% Set paragraph indentation
+\setlength{\parindent}{0pt}
+
+% Set path for assets
+\graphicspath{{assets/}}
+
+
+\setlength{\columnsep}{8pt}
+\raggedcolumns
+
+% _____ CUSTOM COMMANDS __________________________________________
+\newcommand{\E}[0]{\mathbb{E}}
+\newcommand{\R}[0]{\mathbb{R}}
+
+\newcommand{\sgn}[0]{\text{sgn}}
+
+\newcommand{\argmin}[1]{\underset{#1}{\text{argmin}}}
+\newcommand{\argmax}[1]{\underset{#1}{\text{argmax}}}
+
+\begin{document}
+\begin{multicols*}{3}
+
+% _____ CONTENT __________________________________________________
+
+
+
+
+\input{chapters/introduction.tex}
+
+\input{chapters/user_centered.tex}
+
+\input{chapters/prototyping.tex}
+
+\input{chapters/analytical_investigation.tex}
+
+\input{chapters/evaluation_experimentaldesign.tex}
+
+\input{chapters/statistical_analysis.tex}
+
+
+\end{multicols*}
+\end{document}
+
+% ____ FOOTER ______________________________________________________
+% Content and Template: 
+% original by Benjamin Gantenbein (bgantenbein@ethz.ch), 2023
