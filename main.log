@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.7)  19 DEC 2023 13:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.7)  19 DEC 2023 14:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -439,7 +439,7 @@ Package hyperref Info: Link coloring OFF on input line 46.
 \openout3 = `main.out'.
 
  (./chapters/introduction.tex
-<assets//process.png, id=32, 774.895pt x 496.85625pt>
+<assets//process.png, id=36, 774.895pt x 496.85625pt>
 File: assets//process.png Graphic file (type png)
 <use assets//process.png>
 Package pdftex.def Info: assets//process.png  used on input line 20.
@@ -452,12 +452,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )) (./chapters/user_centered.tex
-<assets//iterative_process.png, id=34, 827.09pt x 526.96875pt>
+<assets//iterative_process.png, id=38, 827.09pt x 526.96875pt>
 File: assets//iterative_process.png Graphic file (type png)
 <use assets//iterative_process.png>
 Package pdftex.def Info: assets//iterative_process.png  used on input line 9.
 (pdftex.def)             Requested size: 261.17409pt x 166.40611pt.
-<assets//design_thinking_process.png, id=35, 998.73125pt x 538.01pt>
+<assets//design_thinking_process.png, id=39, 998.73125pt x 538.01pt>
 File: assets//design_thinking_process.png Graphic file (type png)
 <use assets//design_thinking_process.png>
 Package pdftex.def Info: assets//design_thinking_process.png  used on input line 51.
@@ -465,144 +465,92 @@ Package pdftex.def Info: assets//design_thinking_process.png  used on input line
  [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./assets//process.png> <./assets//iterative_process.png> <./assets//design_thinking_process.png>]
-<assets//differences.png, id=52, 1074.0125pt x 452.69125pt>
+<assets//differences.png, id=56, 1074.0125pt x 452.69125pt>
 File: assets//differences.png Graphic file (type png)
 <use assets//differences.png>
 Package pdftex.def Info: assets//differences.png  used on input line 119.
 (pdftex.def)             Requested size: 261.17409pt x 110.07797pt.
-<assets//define.png, id=53, 1034.86626pt x 461.725pt>
+<assets//define.png, id=57, 1034.86626pt x 461.725pt>
 File: assets//define.png Graphic file (type png)
 <use assets//define.png>
 Package pdftex.def Info: assets//define.png  used on input line 127.
 (pdftex.def)             Requested size: 261.17409pt x 116.523pt.
-<assets//persona.png, id=54, 1004.75375pt x 597.23125pt>
+<assets//persona.png, id=58, 1004.75375pt x 597.23125pt>
 File: assets//persona.png Graphic file (type png)
 <use assets//persona.png>
 Package pdftex.def Info: assets//persona.png  used on input line 148.
 (pdftex.def)             Requested size: 261.17409pt x 155.24pt.
-<assets//ideate.png, id=55, 1023.825pt x 455.7025pt>
+<assets//ideate.png, id=59, 1023.825pt x 455.7025pt>
 File: assets//ideate.png Graphic file (type png)
 <use assets//ideate.png>
 Package pdftex.def Info: assets//ideate.png  used on input line 152.
 (pdftex.def)             Requested size: 261.17409pt x 116.24779pt.
 ) (./chapters/prototyping.tex
-<assets//fidelity_iteractivity.png, id=56, 804.00375pt x 522.95375pt>
+<assets//fidelity_iteractivity.png, id=60, 804.00375pt x 522.95375pt>
 File: assets//fidelity_iteractivity.png Graphic file (type png)
 <use assets//fidelity_iteractivity.png>
 Package pdftex.def Info: assets//fidelity_iteractivity.png  used on input line 14.
 (pdftex.def)             Requested size: 261.17409pt x 169.87018pt.
  [2 <./assets//differences.png> <./assets//define.png> <./assets//persona.png> <./assets//ideate.png> <./assets//fidelity_iteractivity.png>]
-<assets//prototype_test.png, id=67, 1035.87pt x 454.69875pt>
+<assets//prototype_test.png, id=71, 1035.87pt x 454.69875pt>
 File: assets//prototype_test.png Graphic file (type png)
 <use assets//prototype_test.png>
 Package pdftex.def Info: assets//prototype_test.png  used on input line 38.
 (pdftex.def)             Requested size: 261.17409pt x 114.64574pt.
 ) (./chapters/analytical_investigation.tex
-<assets//test.png, id=68, 1063.975pt x 469.755pt>
+<assets//test.png, id=72, 1063.975pt x 469.755pt>
 File: assets//test.png Graphic file (type png)
 <use assets//test.png>
 Package pdftex.def Info: assets//test.png  used on input line 4.
 (pdftex.def)             Requested size: 261.17409pt x 115.3096pt.
  [3 <./assets//prototype_test.png> <./assets//test.png>]
-<assets//goms_example.png, id=81, 885.3075pt x 393.47pt>
+<assets//goms_example.png, id=85, 885.3075pt x 393.47pt>
 File: assets//goms_example.png Graphic file (type png)
 <use assets//goms_example.png>
 Package pdftex.def Info: assets//goms_example.png  used on input line 115.
 (pdftex.def)             Requested size: 261.17409pt x 116.07864pt.
-<assets//klm_model.png, id=82, 806.01125pt x 429.605pt>
+<assets//klm_model.png, id=86, 806.01125pt x 429.605pt>
 File: assets//klm_model.png Graphic file (type png)
 <use assets//klm_model.png>
 Package pdftex.def Info: assets//klm_model.png  used on input line 123.
 (pdftex.def)             Requested size: 261.17409pt x 139.20699pt.
 ) (./chapters/evaluation_experimentaldesign.tex
-<assets//metrics.png, id=83, 619.31375pt x 412.54124pt>
+<assets//metrics.png, id=87, 619.31375pt x 412.54124pt>
 File: assets//metrics.png Graphic file (type png)
 <use assets//metrics.png>
 Package pdftex.def Info: assets//metrics.png  used on input line 12.
 (pdftex.def)             Requested size: 261.17409pt x 173.97746pt.
  [4 <./assets//goms_example.png> <./assets//klm_model.png> <./assets//metrics.png>]
-<assets//latin_square.png, id=91, 816.04875pt x 444.66125pt>
+<assets//latin_square.png, id=95, 816.04875pt x 444.66125pt>
 File: assets//latin_square.png Graphic file (type png)
 <use assets//latin_square.png>
 Package pdftex.def Info: assets//latin_square.png  used on input line 65.
 (pdftex.def)             Requested size: 261.17409pt x 142.31485pt.
-<assets//latin_example.png, id=92, 656.4525pt x 447.6725pt>
+<assets//latin_example.png, id=96, 656.4525pt x 447.6725pt>
 File: assets//latin_example.png Graphic file (type png)
 <use assets//latin_example.png>
 Package pdftex.def Info: assets//latin_example.png  used on input line 72.
 (pdftex.def)             Requested size: 261.17409pt x 178.1095pt.
 ) (./chapters/statistical_analysis.tex
-<assets//population_sample.png, id=93, 1004.75375pt x 530.98375pt>
+<assets//population_sample.png, id=97, 1004.75375pt x 530.98375pt>
 File: assets//population_sample.png Graphic file (type png)
 <use assets//population_sample.png>
 Package pdftex.def Info: assets//population_sample.png  used on input line 16.
 (pdftex.def)             Requested size: 261.17409pt x 138.0201pt.
-<assets//standard_deviation.png, id=94, 1020.81375pt x 447.6725pt>
+<assets//standard_deviation.png, id=98, 1020.81375pt x 447.6725pt>
 File: assets//standard_deviation.png Graphic file (type png)
 <use assets//standard_deviation.png>
 Package pdftex.def Info: assets//standard_deviation.png  used on input line 46.
 (pdftex.def)             Requested size: 261.17409pt x 114.53409pt.
  [5 <./assets//latin_square.png> <./assets//latin_example.png> <./assets//population_sample.png>]
-<assets//p_value.png, id=106, 411.5375pt x 289.08pt>
+<assets//p_value.png, id=110, 411.5375pt x 289.08pt>
 File: assets//p_value.png Graphic file (type png)
 <use assets//p_value.png>
 Package pdftex.def Info: assets//p_value.png  used on input line 70.
 (pdftex.def)             Requested size: 261.17409pt x 183.45789pt.
-<assets//differences_mean.png, id=107, 767.86874pt x 473.77pt>
+<assets//differences_mean.png, id=111, 767.86874pt x 473.77pt>
 File: assets//differences_mean.png Graphic file (type png)
 <use assets//differences_mean.png>
 Package pdftex.def Info: assets//differences_mean.png  used on input line 81.
 (pdftex.def)             Requested size: 261.17409pt x 161.14473pt.
- [6 <./assets//standard_deviation.png> <./assets//p_value.png> <./assets//differences_mean.png>]
-<assets//reporting.png, id=116, 1047.915pt x 456.70625pt>
-File: assets//reporting.png Graphic file (type png)
-<use assets//reporting.png>
-Package pdftex.def Info: assets//reporting.png  used on input line 171.
-(pdftex.def)             Requested size: 261.17409pt x 113.82086pt.
-) (./chapters/user_modeling.tex
-<assets//information_processing.png, id=117, 1290.8225pt x 721.69624pt>
-File: assets//information_processing.png Graphic file (type png)
-<use assets//information_processing.png>
-Package pdftex.def Info: assets//information_processing.png  used on input line 41.
-(pdftex.def)             Requested size: 261.17409pt x 146.02155pt.
-<assets//eye.png, id=118, 1288.815pt x 562.1pt>
-File: assets//eye.png Graphic file (type png)
-<use assets//eye.png>
-Package pdftex.def Info: assets//eye.png  used on input line 67.
-(pdftex.def)             Requested size: 261.17409pt x 113.91039pt.
- [7 <./assets//reporting.png> <./assets//information_processing.png> <./assets//eye.png>]
-<assets//fitss_law.png, id=127, 1170.3725pt x 709.65125pt>
-File: assets//fitss_law.png Graphic file (type png)
-<use assets//fitss_law.png>
-Package pdftex.def Info: assets//fitss_law.png  used on input line 156.
-(pdftex.def)             Requested size: 261.17409pt x 158.36523pt.
-<assets//bandwidth.png, id=128, 1275.76625pt x 541.02126pt>
-File: assets//bandwidth.png Graphic file (type png)
-<use assets//bandwidth.png>
-Package pdftex.def Info: assets//bandwidth.png  used on input line 185.
-(pdftex.def)             Requested size: 261.17409pt x 110.75322pt.
-<assets//visual_feedback_loop.png, id=129, 1279.78125pt x 627.34375pt>
-File: assets//visual_feedback_loop.png Graphic file (type png)
-<use assets//visual_feedback_loop.png>
-Package pdftex.def Info: assets//visual_feedback_loop.png  used on input line 201.
-(pdftex.def)             Requested size: 261.17409pt x 128.02237pt.
- [8 <./assets//fitss_law.png> <./assets//bandwidth.png>]) [9 <./assets//visual_feedback_loop.png>] (./main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3BABB18B0F65A98CBBC083E284CB0A3B;997.
- ) 
-Here is how much of TeX's memory you used:
- 11716 strings out of 476025
- 184035 string characters out of 5790017
- 1877388 words of memory out of 5000000
- 31946 multiletter control sequences out of 15000+600000
- 515580 words of font info for 45 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 75i,6n,76p,471b,660s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (9 pages, 10791920 bytes).
-PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
- 182 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ [6 <./assets//standard_deviation.png> <./assets//p_value.png> <./assets//differences_mean.png
