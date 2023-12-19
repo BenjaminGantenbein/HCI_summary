@@ -553,4 +553,88 @@ File: assets//differences_mean.png Graphic file (type png)
 <use assets//differences_mean.png>
 Package pdftex.def Info: assets//differences_mean.png  used on input line 81.
 (pdftex.def)             Requested size: 261.17409pt x 161.14473pt.
- [6 <./assets//standard_deviation.png> <./assets//p_value.png> <./assets//differences_mean.png
+ [6 <./assets//standard_deviation.png> <./assets//p_value.png> <./assets//differences_mean.png>]
+<assets//reporting.png, id=120, 1047.915pt x 456.70625pt>
+File: assets//reporting.png Graphic file (type png)
+<use assets//reporting.png>
+Package pdftex.def Info: assets//reporting.png  used on input line 171.
+(pdftex.def)             Requested size: 261.17409pt x 113.82086pt.
+) (./chapters/user_modeling.tex
+<assets//information_processing.png, id=121, 1290.8225pt x 721.69624pt>
+File: assets//information_processing.png Graphic file (type png)
+<use assets//information_processing.png>
+Package pdftex.def Info: assets//information_processing.png  used on input line 41.
+(pdftex.def)             Requested size: 261.17409pt x 146.02155pt.
+<assets//eye.png, id=122, 1288.815pt x 562.1pt>
+File: assets//eye.png Graphic file (type png)
+<use assets//eye.png>
+Package pdftex.def Info: assets//eye.png  used on input line 67.
+(pdftex.def)             Requested size: 261.17409pt x 113.91039pt.
+ [7 <./assets//reporting.png> <./assets//information_processing.png> <./assets//eye.png>]
+<assets//fitss_law.png, id=131, 1170.3725pt x 709.65125pt>
+File: assets//fitss_law.png Graphic file (type png)
+<use assets//fitss_law.png>
+Package pdftex.def Info: assets//fitss_law.png  used on input line 156.
+(pdftex.def)             Requested size: 261.17409pt x 158.36523pt.
+<assets//bandwidth.png, id=132, 1275.76625pt x 541.02126pt>
+File: assets//bandwidth.png Graphic file (type png)
+<use assets//bandwidth.png>
+Package pdftex.def Info: assets//bandwidth.png  used on input line 185.
+(pdftex.def)             Requested size: 261.17409pt x 110.75322pt.
+<assets//visual_feedback_loop.png, id=133, 1279.78125pt x 627.34375pt>
+File: assets//visual_feedback_loop.png Graphic file (type png)
+<use assets//visual_feedback_loop.png>
+Package pdftex.def Info: assets//visual_feedback_loop.png  used on input line 201.
+(pdftex.def)             Requested size: 261.17409pt x 128.02237pt.
+ [8 <./assets//fitss_law.png> <./assets//bandwidth.png>]) (./chapters/visual_perception.tex
+<assets//feature_integration_principle.png, id=140, 975.645pt x 176.66pt>
+File: assets//feature_integration_principle.png Graphic file (type png)
+<use assets//feature_integration_principle.png>
+Package pdftex.def Info: assets//feature_integration_principle.png  used on input line 36.
+(pdftex.def)             Requested size: 261.17409pt x 47.2891pt.
+<assets//fit_2.png, id=141, 952.55875pt x 556.0775pt>
+File: assets//fit_2.png Graphic file (type png)
+<use assets//fit_2.png>
+Package pdftex.def Info: assets//fit_2.png  used on input line 39.
+(pdftex.def)             Requested size: 261.17409pt x 152.46783pt.
+<assets//plt_experiment.png, id=142, 1287.81125pt x 549.05125pt>
+File: assets//plt_experiment.png Graphic file (type png)
+<use assets//plt_experiment.png>
+Package pdftex.def Info: assets//plt_experiment.png  used on input line 58.
+(pdftex.def)             Requested size: 261.17409pt x 111.34982pt.
+<assets//models_of_perception.png, id=143, 1307.88625pt x 394.47375pt>
+File: assets//models_of_perception.png Graphic file (type png)
+<use assets//models_of_perception.png>
+Package pdftex.def Info: assets//models_of_perception.png  used on input line 66.
+(pdftex.def)             Requested size: 261.17409pt x 78.77296pt.
+ [9 <./assets//visual_feedback_loop.png> <./assets//feature_integration_principle.png> <./assets//fit_2.png> <./assets//plt_experiment.png>]
+<assets//visual_saliency_example.png, id=152, 1296.845pt x 539.01375pt>
+File: assets//visual_saliency_example.png Graphic file (type png)
+<use assets//visual_saliency_example.png>
+Package pdftex.def Info: assets//visual_saliency_example.png  used on input line 82.
+(pdftex.def)             Requested size: 261.17409pt x 108.54927pt.
+<assets//bounded_rationality.png, id=153, 1276.77pt x 433.62pt>
+File: assets//bounded_rationality.png Graphic file (type png)
+<use assets//bounded_rationality.png>
+Package pdftex.def Info: assets//bounded_rationality.png  used on input line 113.
+(pdftex.def)             Requested size: 261.17409pt x 88.70079pt.
+) [10 <./assets//models_of_perception.png> <./assets//visual_saliency_example.png> <./assets//bounded_rationality.png>] (./main.aux)
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 73B6084ACEC7A8535D5F87EFACED33B1;1128.
+ ) 
+Here is how much of TeX's memory you used:
+ 11786 strings out of 476025
+ 186027 string characters out of 5790017
+ 1877388 words of memory out of 5000000
+ 31998 multiletter control sequences out of 15000+600000
+ 515580 words of font info for 45 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,6n,76p,471b,665s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (10 pages, 13314002 bytes).
+PDF statistics:
+ 222 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 220 words of extra memory for PDF output out of 10000 (max. 10000000)
+

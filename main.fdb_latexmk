@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1702991105 "/Users/benjamingantenbein/Desktop/HCI Summary/main.tex" "main.pdf" "main" 1702991111 0
+["pdflatex"] 1702991143 "/Users/benjamingantenbein/Desktop/HCI Summary/main.tex" "main.pdf" "main" 1702991149 0
   "/Users/benjamingantenbein/Desktop/HCI Summary/main.tex" 1702987778 1615 7bb85b581de4aad74dbba9d7c5b61b26 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -130,9 +130,9 @@
   "chapters/statistical_analysis.tex" 1702919486 6136 1eef90b71f6283103487783cc7b08104 ""
   "chapters/user_centered.tex" 1702898335 6448 888fe275e580f95e1eeef85d503fa969 ""
   "chapters/user_modeling.tex" 1702987572 9343 8d2293b33bb89f0e6f935de4c0973143 ""
-  "chapters/visual_perception.tex" 1702991100 5497 147703e005bdc0c55240a96142d3653a ""
-  "main.aux" 1702991111 1483 da54dbe0e3bd6d1f3f189f13d9136627 "pdflatex"
-  "main.out" 1702991111 1128 73b6084acec7a8535d5f87efaced33b1 "pdflatex"
+  "chapters/visual_perception.tex" 1702991139 5581 fd57c8236f48d16b9f4f794171d5b745 ""
+  "main.aux" 1702991148 1483 da54dbe0e3bd6d1f3f189f13d9136627 "pdflatex"
+  "main.out" 1702991148 1128 73b6084acec7a8535d5f87efaced33b1 "pdflatex"
   "main.tex" 1702987778 1615 7bb85b581de4aad74dbba9d7c5b61b26 ""
   (generated)
   "main.aux"
