@@ -82,5 +82,50 @@ Limitations to passive kinesthetic:
 	\item Often cumpersome
 	\item Expensive
 	\item Limited part of how we perceive world
-\end{itemize}
+\end{itemize} \medskip
 
+\textbf{Current Limitations of Haptics} \smallskip
+
+The chain is: System state triggers an actuator, which in turn is perceived by a human.
+
+Kisthetics are currently not common in user electronics. 
+
+ 
+
+\begin{itemize}[itemsep=-5pt, topsep=0pt, leftmargin=*]
+	\item Kisthetics are currently not common in user electronics. 
+	\item Human state is not taken into account
+	\item Current systems only react to system states
+	\item We are limited to vibrotactile feedback
+	\item This leads to underperforming and underwhelmin feedback
+\end{itemize} \medskip
+
+
+\textbf{How to overcome these limitations?}
+
+
+\begin{itemize}[itemsep=-5pt, topsep=0pt, leftmargin=*]
+	\item Enable sensing of human state
+	\item Use human state to control the device intelligently
+	\item Using Closed vs open loop
+	\item Body pose as a first step for truly intelligent haptic feedback systems
+\end{itemize} \medskip
+
+Add control:
+\begin{center}
+	\includegraphics[width=\linewidth]{control.png}
+\end{center}
+
+\begin{center}
+	\includegraphics[width=\linewidth]{desired_loop.png}
+\end{center}
+
+\medskip
+
+Example of a closed-form solution to calculate electromagnetic force.
+\begin{center}
+	\includegraphics[width=\linewidth]{example_closeloop.png}
+\end{center}
+
+It has been found that more complex shapes beenfit most from feedback. And users are still limited by the speed of the system. 
+But overall drawings are more accurate that way. 
