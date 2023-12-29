@@ -5,8 +5,8 @@ The main idea of this chapter is to use models and algorithms to help design and
 \begin{itemize}[itemsep=-5pt, topsep=0pt, leftmargin=*]
 	\item Modeling task as combinatorial optimization problem
 	\item User models as cost / goodness functions in optimization
-	\item The assignment proble and applications in HCI
-	\item Exampels
+	\item The assignment problem and applications in HCI
+	\item Examples
 \end{itemize}
 
 Example: 50 different items yield 50! options to create menus. 
@@ -30,8 +30,8 @@ Some benefits of using algos in design:
 \begin{itemize}[itemsep=-5pt, topsep=0pt, leftmargin=*]
 	\item Efficiently search large solution spaces
 	\item Systematic, rigorous process
-	\item Imporoved quality and reliability
-	\item Guarantees for goodness og outcomes
+	\item Improved quality and reliability
+	\item Guarantees for goodness of outcomes
 \end{itemize}
 
 We want to find optimal $x \in X$ where $X \in \mathbb{K}^n$ which maximizes $f(x)$. So $X$ is the set of all feasible solutions. \medskip
@@ -39,16 +39,16 @@ We want to find optimal $x \in X$ where $X \in \mathbb{K}^n$ which maximizes $f(
 \textit{Formulate optimization problem}
  \begin{multicols}{2}
     \begin{itemize}[itemsep=-5pt, topsep=0pt, leftmargin=*]
-        \item The design space (variables, contraints)
+        \item The design space (variables, constraints)
         \item Objective functionality
-        \item  Way to solve problem (solver)
+        \item Way to solve problem (solver)
     \end{itemize}
  \end{multicols}
     
 
 \textit{Design Space} \smallskip
 
-A combination of all design variables forms the design space. Each variable represents an open decision (usually discrete):
+A combination of all design variables form the design space. Each variable represents an open decision (usually discrete):
 
 \begin{itemize}[itemsep=-5pt, topsep=0pt, leftmargin=*]
 	\item Boolean(e.g. show label)
@@ -57,7 +57,7 @@ A combination of all design variables forms the design space. Each variable repr
 	\item Continous(e.g. color value)
 \end{itemize}
 
-As not all combinations yield a feasible design we need to introduce constraints. \smallskip
+As not all combinations yield a feasible design we need to introduce constraints. \medskip
 
 Decision variables: \smallskip
 
@@ -65,7 +65,7 @@ $x_{ik} =
 \begin{cases} 
 1, & \text{if command } i \text{ assigned to slot } k \\
 0, & \text{otherwise}
-\end{cases}$
+\end{cases}$ \medskip
 
 Design space: \smallskip
 
@@ -96,13 +96,13 @@ We can find an objective function in different ways.
 Example: Minimize average selection time (linear assignment problem):
 
 $$\min \sum_{i=1}^{n} \sum_{k=1}^{n} p_{i} \cdot t_{k} \cdot x_{ik}$$
-Where $p_i$ is prob of item $i$, $x_{ik}$ the constraints and $t_k$ the time to move to slot k from the top. We call $x_{ik}$ the decision variables. 
+Where $p_i$ is prob of item $i$, $x_{ik}$ the constraints and $t_k$ the time to move to slot k from the top. \medskip
 
 \textbf{Optimization Methods}
 
 \textit{Mathematical, Exact Methods} \smallskip
 
-Linear or (Mixed-) Integer Programming, Branch and Bound methods
+Linear or (Mixed-) Integer Programming, Branch and Bound methods.
 
 \begin{itemize}[itemsep=-5pt, topsep=0pt, leftmargin=*]
 	\item + Explicit bounds and guarantees optimality
@@ -127,7 +127,7 @@ Simulated annealing, Genetic algorithms, Biology inspired algos
 
 \textbf{Assignment Problem} \medskip
 
-Assign items from Set A (e.g. menu items) to items in Set B (e.g. menu slots). \smallskip
+Assign items from Set A (e.g. menu items) to items in Set B (e.g. menu slots). \medskip
 
 \textit{Quadratic Assignment Problem}
 
@@ -160,7 +160,7 @@ Goodness of user interface is determined by many aspects.
 	\item Ergonomic and Fatigue
 	\item Error prob.
 	\item Mental workload
-	\item learnability
+	\item Learnability
 	\item Accessability
 	\item Subjective experience
 	\item etc. 
@@ -194,7 +194,7 @@ Optimize the UI to accomodate changes in environment, cognitive state, abilities
 \end{center}
 
 
-The idea then is to inlude cognitive load, cognitive capacity and cognitive cost to the objective function. \medskip
+The idea then is to include cognitive load, cognitive capacity and cognitive cost to the objective function. \medskip
 
 \textit{Optimize for environment} \smallskip
 
@@ -220,6 +220,7 @@ $x_{e,c} = \begin{cases} 1, & \text{if } e \text{ is assigned to } c \\ 0, & \te
 
 New contexts might introduce physical constraints that may render prior interface layouts unuseable. 
 
+\columnbreak
 
 
 

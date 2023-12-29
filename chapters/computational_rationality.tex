@@ -1,6 +1,6 @@
 \section{Computational Rationality}
 
-Comp. Rationality converges ideas from AI, robotics, cognitive science and neurosciences. 
+Comp. Rationality merges ideas from AI, robotics, cognitive science and neurosciences. 
 
 It refers to computational principles for:
 \begin{enumerate}[itemsep=-5pt, topsep=0pt, leftmargin=*]
@@ -32,7 +32,7 @@ Interaction is not equal to emerging behavior. After initial task has failed/suc
 	\item Latent learning: Adapting to distal changes in environment
 	\item Planning: Sequencing actions while considering long-term effects on reward
 	\item Compositionality: Good solution require putting together partial solutions cleverly
-	\item Exploration/exploitation: Knowing when to learn the structure of task /environment vs when to exploit it
+	\item Exploration/exploitation: Knowing when to learn the structure of task / environment vs when to exploit it
 	\item Uncertainty: Knowledge can be incomplete or incorrect
 	\item Resource limitations: Limited time and capabilities
 	\item Curse of dimensionality: A very large number of possibilities
@@ -60,7 +60,7 @@ Is supposed to look at emerging bahavior component. \medskip
 
 \textit{Reinforcement Learning (RL)} \smallskip
 
-RL is an interdisciplinary area of machine learning and optimal control concerned with how an intelligent agent ought to take actions in a dynamic environment to maximize the cumulative reward. 
+RL is an interdisciplinary area of machine learning and optimal control, concerned with how an intelligent agent ought to take actions in a dynamic environment to maximize the cumulative reward. 
 
 \begin{center}
 	\includegraphics[width=\linewidth]{reinforcement_learning.png}
@@ -98,7 +98,7 @@ Tuple: $\{S, A, T, R, \gamma\}$
 	\item S: A finite set of states (what letters have I typed so far)
 	\item A: A finite set of actions (what letter do I type next, what muscle do I activate)
 	\item T: Transition matrix: $p(s', a, s)$ given state and action, what is the prob of the next state
-	\item R: Reward $R(s', a, ss)$ the immediate reward of taking the action $a$ in state $s$. 
+	\item R: Reward $R(s', a, s)$ the immediate reward of taking the action $a$ in state $s$. 
 	\item $\gamma \in [0, 1)$: the discount factor
 \end{itemize}
 
@@ -116,6 +116,7 @@ Value function is a prediction of future reward. Used to evaluate the goodness/b
 $$V_{\pi}(s) = E_{\pi}[R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + ... | s_{t} = s]$$
 
 \textit{On Rewards} \smallskip
+
 It is a scalar feedback and describes how well an agent is doing at step t. 
 
 
@@ -134,7 +135,7 @@ Supposed to look at Human-likeness.
 \textit{Internal vs External Environmen} \smallskip
 
 \begin{itemize}[itemsep=-5pt, topsep=0pt, leftmargin=*]
-	\item Humans acit in the external environment via their internal environment
+	\item Humans act in the external environment via their internal environment
 	\item External environment: The world
 	\item Internal environment: Cognition
 	\item Agent: Decison maker
@@ -192,7 +193,7 @@ How do we choose what stimuli to direct our cognitive resources on. We use cogni
 	\item Multitasking
 	\item Task-switching
 	\item Inhibiting distracting ideas
-\end{itemize}
+\end{itemize} \medskip
 
 \textit{2. Cognition Adapts} \smallskip
 
@@ -202,7 +203,7 @@ Systems used by people and the way work is carried out changes all the time.
 	\item Update old beliefs with new ones
 	\item Update old plans and form new ones
 	\item Cognition is not only reacting to environments but also actively finding ways to function better
-\end{itemize}
+\end{itemize} \medskip
 
 
 \textit{3. Cognition Learns} \smallskip
@@ -211,7 +212,7 @@ Computers are complex but opaque systems. We need internal representations to co
 It learns to use external aids. 
 
 Cognition also learns how to use external aids such as notes calculators etc. to augment our abilities. This changes the way we use cognition in interaction. 
-Example is GUIs that have lead to forget commands in memory. 
+Example is GUIs that has lead to forgetting terminal commands in memory. 
 
 
 Example: Menu interaction of non-sighted users
@@ -219,6 +220,7 @@ Example: Menu interaction of non-sighted users
 	\includegraphics[width=\linewidth]{Cognition_learns_example.png}
 \end{center}
 
+\medskip
 
 \textit{4. Cognition computes based on internal representations} \smallskip
 
@@ -261,7 +263,7 @@ Perception is needed to regulate actions:
 
 \textbf{Gaze-based Interaction} \smallskip
 
-Proble of selecting items on a computer with eye movements and fixations. These eyemovements obey Fitt's Law. 
+Problem of selecting items on a computer with eye movements and fixations. These eyemovements obey Fitt's Law. 
 Movement time of the eyes is proportional to distance and inversely proportional to size of the target.
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.7)  29 DEC 2023 13:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.7)  29 DEC 2023 14:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -744,22 +744,21 @@ File: assets//interaction_modality.png Graphic file (type png)
 <use assets//interaction_modality.png>
 Package pdftex.def Info: assets//interaction_modality.png  used on input line 218.
 (pdftex.def)             Requested size: 261.17409pt x 106.80023pt.
-) (./chapters/haptics.tex
-<assets//control.png, id=245, 991.705pt x 397.485pt>
+) (./chapters/haptics.tex [15 <./assets//user_roles.png> <./assets//optimize_for_cognitive_load.png> <./assets//environment_formula.png> <./assets//temporal_consistency.png> <./assets//interaction_modality.png>]
+<assets//control.png, id=254, 991.705pt x 397.485pt>
 File: assets//control.png Graphic file (type png)
 <use assets//control.png>
-Package pdftex.def Info: assets//control.png  used on input line 116.
+Package pdftex.def Info: assets//control.png  used on input line 121.
 (pdftex.def)             Requested size: 261.17409pt x 104.67798pt.
- [15 <./assets//user_roles.png> <./assets//optimize_for_cognitive_load.png> <./assets//environment_formula.png> <./assets//temporal_consistency.png> <./assets//interaction_modality.png>]
 <assets//desired_loop.png, id=255, 977.6525pt x 517.935pt>
 File: assets//desired_loop.png Graphic file (type png)
 <use assets//desired_loop.png>
-Package pdftex.def Info: assets//desired_loop.png  used on input line 120.
+Package pdftex.def Info: assets//desired_loop.png  used on input line 125.
 (pdftex.def)             Requested size: 261.17409pt x 138.36644pt.
 <assets//example_closeloop.png, id=256, 732.7375pt x 456.70625pt>
 File: assets//example_closeloop.png Graphic file (type png)
 <use assets//example_closeloop.png>
-Package pdftex.def Info: assets//example_closeloop.png  used on input line 127.
+Package pdftex.def Info: assets//example_closeloop.png  used on input line 132.
 (pdftex.def)             Requested size: 261.17409pt x 162.78342pt.
 ) (./chapters/computational_rationality.tex
 <assets//policy_estimation_view.png, id=257, 1110.1475pt x 620.3175pt>
@@ -772,90 +771,91 @@ File: assets//book_flights.png Graphic file (type png)
 <use assets//book_flights.png>
 Package pdftex.def Info: assets//book_flights.png  used on input line 53.
 (pdftex.def)             Requested size: 261.17409pt x 99.61606pt.
-<assets//interaction_sequential.png, id=259, 620.3175pt x 260.975pt>
+ [16 <./assets//control.png> <./assets//desired_loop.png> <./assets//example_closeloop.png>]
+<assets//interaction_sequential.png, id=269, 620.3175pt x 260.975pt>
 File: assets//interaction_sequential.png Graphic file (type png)
 <use assets//interaction_sequential.png>
 Package pdftex.def Info: assets//interaction_sequential.png  used on input line 57.
 (pdftex.def)             Requested size: 261.17409pt x 109.87953pt.
-<assets//reinforcement_learning.png, id=260, 607.26875pt x 183.68625pt>
+<assets//reinforcement_learning.png, id=270, 607.26875pt x 183.68625pt>
 File: assets//reinforcement_learning.png Graphic file (type png)
 <use assets//reinforcement_learning.png>
 Package pdftex.def Info: assets//reinforcement_learning.png  used on input line 66.
 (pdftex.def)             Requested size: 261.17409pt x 79.00035pt.
- [16 <./assets//control.png> <./assets//desired_loop.png> <./assets//example_closeloop.png> <./assets//policy_estimation_view.png> <./assets//book_flights.png>]
-<assets//example_RL.png, id=273, 909.3975pt x 226.8475pt>
+<assets//example_RL.png, id=271, 909.3975pt x 226.8475pt>
 File: assets//example_RL.png Graphic file (type png)
 <use assets//example_RL.png>
 Package pdftex.def Info: assets//example_RL.png  used on input line 71.
 (pdftex.def)             Requested size: 261.17409pt x 65.15065pt.
-<assets//HCI.png, id=274, 618.31pt x 527.9725pt>
+<assets//HCI.png, id=272, 618.31pt x 527.9725pt>
 File: assets//HCI.png Graphic file (type png)
 <use assets//HCI.png>
 Package pdftex.def Info: assets//HCI.png  used on input line 81.
 (pdftex.def)             Requested size: 117.52754pt x 100.3561pt.
-<assets//machine_learning.png, id=275, 531.9875pt x 478.78876pt>
+<assets//machine_learning.png, id=273, 531.9875pt x 478.78876pt>
 File: assets//machine_learning.png Graphic file (type png)
 <use assets//machine_learning.png>
 Package pdftex.def Info: assets//machine_learning.png  used on input line 83.
 (pdftex.def)             Requested size: 117.52754pt x 105.77219pt.
-<assets//comparison_RL.png, id=276, 1019.81pt x 450.68375pt>
+<assets//comparison_RL.png, id=274, 1019.81pt x 450.68375pt>
 File: assets//comparison_RL.png Graphic file (type png)
 <use assets//comparison_RL.png>
-Package pdftex.def Info: assets//comparison_RL.png  used on input line 131.
+Package pdftex.def Info: assets//comparison_RL.png  used on input line 132.
 (pdftex.def)             Requested size: 261.17409pt x 115.4214pt.
-<assets//bounded_optimality.png, id=277, 1012.78375pt x 585.18625pt>
+<assets//bounded_optimality.png, id=275, 1012.78375pt x 585.18625pt>
 File: assets//bounded_optimality.png Graphic file (type png)
 <use assets//bounded_optimality.png>
-Package pdftex.def Info: assets//bounded_optimality.png  used on input line 147.
+Package pdftex.def Info: assets//bounded_optimality.png  used on input line 148.
 (pdftex.def)             Requested size: 261.17409pt x 150.90367pt.
-<assets//ml_and_bounds.png, id=278, 1086.0575pt x 599.23875pt>
+<assets//ml_and_bounds.png, id=276, 1086.0575pt x 599.23875pt>
 File: assets//ml_and_bounds.png Graphic file (type png)
 <use assets//ml_and_bounds.png>
-Package pdftex.def Info: assets//ml_and_bounds.png  used on input line 152.
+Package pdftex.def Info: assets//ml_and_bounds.png  used on input line 153.
 (pdftex.def)             Requested size: 261.17409pt x 144.10368pt.
-<assets//cognitive_architecture.png, id=279, 1001.7425pt x 434.62375pt>
+ [17 <./assets//policy_estimation_view.png> <./assets//book_flights.png> <./assets//interaction_sequential.png> <./assets//reinforcement_learning.png> <./assets//example_RL.png> <./assets//HCI.png> <./assets//machine_learning.png> <./assets//comparison_RL.png>]
+<assets//cognitive_architecture.png, id=290, 1001.7425pt x 434.62375pt>
 File: assets//cognitive_architecture.png Graphic file (type png)
 <use assets//cognitive_architecture.png>
-Package pdftex.def Info: assets//cognitive_architecture.png  used on input line 159.
+Package pdftex.def Info: assets//cognitive_architecture.png  used on input line 160.
 (pdftex.def)             Requested size: 261.17409pt x 113.3112pt.
- [17 <./assets//interaction_sequential.png> <./assets//reinforcement_learning.png> <./assets//example_RL.png> <./assets//HCI.png> <./assets//machine_learning.png> <./assets//comparison_RL.png> <./assets//bounded_optimality.png> <./assets//ml_and_bounds.png> <./assets//cognitive_architecture.png>]
-<assets//Cognition_learns_example.png, id=294, 937.5025pt x 383.4325pt>
+<assets//Cognition_learns_example.png, id=291, 937.5025pt x 383.4325pt>
 File: assets//Cognition_learns_example.png Graphic file (type png)
 <use assets//Cognition_learns_example.png>
-Package pdftex.def Info: assets//Cognition_learns_example.png  used on input line 219.
+Package pdftex.def Info: assets//Cognition_learns_example.png  used on input line 220.
 (pdftex.def)             Requested size: 261.17409pt x 106.81625pt.
-<assets//perception.png, id=295, 1065.9825pt x 417.56pt>
+<assets//perception.png, id=292, 1065.9825pt x 417.56pt>
 File: assets//perception.png Graphic file (type png)
 <use assets//perception.png>
-Package pdftex.def Info: assets//perception.png  used on input line 248.
+Package pdftex.def Info: assets//perception.png  used on input line 250.
 (pdftex.def)             Requested size: 261.17409pt x 102.30627pt.
-<assets//Gaze_based_interaction.png, id=296, 1124.2pt x 346.29375pt>
+<assets//Gaze_based_interaction.png, id=293, 1124.2pt x 346.29375pt>
 File: assets//Gaze_based_interaction.png Graphic file (type png)
 <use assets//Gaze_based_interaction.png>
-Package pdftex.def Info: assets//Gaze_based_interaction.png  used on input line 269.
+Package pdftex.def Info: assets//Gaze_based_interaction.png  used on input line 271.
 (pdftex.def)             Requested size: 261.17409pt x 80.44905pt.
-<assets//comparison_cognitive_architectures.png, id=297, 792.9625pt x 191.71625pt>
+ [18 <./assets//bounded_optimality.png> <./assets//ml_and_bounds.png> <./assets//cognitive_architecture.png> <./assets//Cognition_learns_example.png> <./assets//perception.png>]
+<assets//comparison_cognitive_architectures.png, id=303, 792.9625pt x 191.71625pt>
 File: assets//comparison_cognitive_architectures.png Graphic file (type png)
 <use assets//comparison_cognitive_architectures.png>
-Package pdftex.def Info: assets//comparison_cognitive_architectures.png  used on input line 278.
+Package pdftex.def Info: assets//comparison_cognitive_architectures.png  used on input line 280.
 (pdftex.def)             Requested size: 261.17409pt x 63.14368pt.
-) [18 <./assets//Cognition_learns_example.png> <./assets//perception.png> <./assets//Gaze_based_interaction.png> <./assets//comparison_cognitive_architectures.png>] (./main.aux)
+) [19 <./assets//Gaze_based_interaction.png> <./assets//comparison_cognitive_architectures.png>] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 689524A8A1BE742783380A2703CC3256;1597.
  ) 
 Here is how much of TeX's memory you used:
- 12223 strings out of 476025
- 198845 string characters out of 5790017
+ 12224 strings out of 476025
+ 198852 string characters out of 5790017
  1874388 words of memory out of 5000000
  32359 multiletter control sequences out of 15000+600000
  520845 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,76p,471b,786s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,76p,471b,805s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (18 pages, 26138080 bytes).
+Output written on main.pdf (19 pages, 26138379 bytes).
 PDF statistics:
- 380 PDF objects out of 1000 (max. 8388607)
- 186 compressed objects within 2 object streams
- 50 named destinations out of 1000 (max. 500000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 190 compressed objects within 2 object streams
+ 51 named destinations out of 1000 (max. 500000)
  457 words of extra memory for PDF output out of 10000 (max. 10000000)
 
