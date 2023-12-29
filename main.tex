@@ -1,5 +1,7 @@
 \documentclass[10pt, landscape, a4paper]{article}
-\usepackage{geometry}[landscape]
+% Include necessary packages
+\usepackage{geometry}
+\geometry{landscape} % Set document to landscape mode
 \usepackage{multicol}
 \usepackage{graphicx}
 \usepackage{amsmath} 
@@ -7,18 +9,14 @@
 \usepackage{ccicons}
 \usepackage{hyperref}
 \usepackage{enumitem}
-
 \usepackage[dvipsnames]{xcolor}
-\usepackage{titlesec} % Include titlesec package
+\usepackage{titlesec}
 
-
+% Title and subtitle configuration
 \titleformat{\section}
-	{\normalfont\large\bfseries}{\thesection}{1em}{}
-
+    {\normalfont\large\bfseries}{\thesection}{1em}{}
 \titlespacing*{\section}
-	{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
-
-	
+    {0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
 \pagestyle{plain}
 
 % Set page margins
@@ -30,26 +28,25 @@
 % Set path for assets
 \graphicspath{{assets/}}
 
+% Title with manual subtitle
+\title{Human Computer Interaction Summary HS23 \\ \vspace{10pt} \large Written by Benjamin Gantenbein bgantenbein@ethz.ch}
 
 \setlength{\columnsep}{8pt}
 \raggedcolumns
 
-% _____ CUSTOM COMMANDS __________________________________________
+% Custom commands
 \newcommand{\E}[0]{\mathbb{E}}
 \newcommand{\R}[0]{\mathbb{R}}
-
 \newcommand{\sgn}[0]{\text{sgn}}
-
 \newcommand{\argmin}[1]{\underset{#1}{\text{argmin}}}
 \newcommand{\argmax}[1]{\underset{#1}{\text{argmax}}}
 
 \begin{document}
 \begin{multicols*}{3}
 
-% _____ CONTENT __________________________________________________
-
-
-
+% Content
+\date{}
+\maketitle
 
 \input{chapters/introduction.tex}
 
