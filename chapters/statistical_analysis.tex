@@ -5,9 +5,9 @@
 Important:
 \begin{itemize}
     \item Choose representative sample
-    \item Form hypthesis to make asssumptions testable
-    \item collect data to test Hypothesis
-    \item collect all avaiable data (better too much)
+    \item Form hypothesis to make asssumptions testable
+    \item Collect data to test Hypothesis
+    \item Collect all available data (better too much)
 \end{itemize}
 \textit{Population vs Sample}
 
@@ -37,7 +37,7 @@ Doesn't make sense if we divide through categorical or ordinal data. \medskip
 
 \textit{Median}  \smallskip
 
-is robust against outliers. The number at the middle of the ordered data points. Natural choice to represent ordinal data. \medskip
+Is robust against outliers. The number at the middle of the ordered data points. Natural choice to represent ordinal data. \medskip
 
 \textit{Distribution} \smallskip
 
@@ -54,17 +54,19 @@ Confidence interval of mean difference (two samples) \medskip
 
  \textbf{Analysis} \smallskip
 
- Bayesian quantitative approach no covered in this course, also not qualitative analysis methods. \medskip
+ Bayesian quantitative approach not covered in this course, also not qualitative analysis methods. \medskip
 
 \textbf{Frequentist Approaches} \smallskip
 
 \textit{Hypothesis testing} \smallskip
 
-We assume $H_0$ to be true. The lower our p-value the less likely that $H_0$ is true and $H_A$ is true. P-value indicated how compatible the data to which hypothesis is. \medskip
+We assume $H_0$ to be true. The lower our p-value the less likely that $H_0$ is true and more likely that $H_A$ is true. P-value indicates how compatible the data is to which hypothesis. \medskip
+
+\columnbreak
 
 \textit{P-Value} \smallskip
 
-P-value is probability of observed data if $H_0$ were true.
+P-value is the probability of observed data if $H_0$ were true.
 
 \begin{center}
 	\includegraphics[width=\linewidth]{p_value.png}
@@ -73,8 +75,8 @@ P-value is probability of observed data if $H_0$ were true.
 
 \textit{Alpha-Level} \smallskip
 
-Threshold to determine if p-value is lowe enough. Usually $\alpha = 0.05$. In medicine even lower.
-If p-vlue is larger than $\alpha$ this does not mean that $H_0$ is true! \medskip
+Threshold to determine if p-value is low enough. Usually $\alpha = 0.05$. In medicine even lower.
+If p-value is larger than $\alpha$ this does not mean that $H_0$ is true! \medskip
 
 
 \begin{center}
@@ -91,22 +93,22 @@ Type II error: No effect was found, but effect exists in reality (False-Negative
 
 \textit{Degrees of Freedom} \smallskip
 
-Number of values that are free to cary. Number of observations ($n$) minus the number of parameter estimates. For one-sample t-test: $$v = n-1$$. \medskip
+Number of values that are free to vary. Number of observations ($n$) minus the number of parameter estimates. For one-sample t-test: $$v = n-1$$. \medskip
 
 \textit{Independent vs dependent samples} \smallskip
 
-Independent: One subject only exposed to one condition (use different subjects for differen conditions). Also referred to as Independent measures or means. 
+Independent: One subject only exposed to one condition (use different subjects for different conditions). Also referred to as Independent measures or means. 
 
 Dependent: Same subject exposed to all conditions (Within subject design). Also referred to as matched pairs or paired samples. \medskip
 
 
-\textit{Parametrix vs. non-parametric tests} \smallskip
+\textit{Parametric vs. non-parametric tests} \smallskip
 
 Non-parametric do not assume specific distribution. Assume equal spread of group samples. Less statistical power. Type II error more likely. 
 
 Examples: Chi-Square, Mann Whitnes, Wilcoxons signed rank test, Kruskal Wallis, Friedman \medskip
 
-Parametric tests assume gaussian distribution and homoscedasticity (equal variances). More power!
+Parametric tests assume gaussian distribution and homoscedasticity (equal variances). Have More power!
 
 Examples: one-sample t-test, two-sample t-test, paired-sample t-test, one-way/factorial ANOVA, repeated measured ANOVA. \medskip
 
@@ -126,9 +128,11 @@ Large t means different groups ($H_0$ refuted). \medskip
 T-values lead us to our p-value over degrees of freedom in standardized tables. 
 T-distribution depends on sample size (degrees of freedom). Its a distribution of t-values of a population where the null hypothesis is true. \medskip
 
+\columnbreak
+
 \textit{ANOVA analysis of Variance} \smallskip
 
-Use this if independent variable /factor has three or more levels. One-way ANOVA is used for data with one factor and multiple levels. 
+Use this if independent variable / factor has three or more levels. One-way ANOVA is used for data with one factor and multiple levels. 
 Factorial ANOVA is used for data with multiple factors and levels. Does not tell us which levels are different. \medskip
 
 \textit{Effect size} \smallskip

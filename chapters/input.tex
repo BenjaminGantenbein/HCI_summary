@@ -2,7 +2,7 @@
 
 \textbf{Input Devices}
 
-Fitt's law for performance evaluation of input devices, but how to distinguish in functionality and specific metric? Answer is systematization. 
+Fitt's law can be used for performance evaluation of input devices, but how do we distinguish in functionality and any specific metric? The Answer is systematization. 
 In general input devices enable to engange in dialogue with a computer or a machine. This dialogue is not in natural language. 
 Dialogue is between fundamentally dissimilar agents-both in perception and processing. \medskip
 
@@ -20,14 +20,16 @@ Dialogue is between fundamentally dissimilar agents-both in perception and proce
 
 \textbf{Properties} \smallskip
 
-\textit{Direct / indirect input} \smallskip
+\textit{Direct / Indirect input} \smallskip
 
 \begin{itemize}[itemsep=-5pt, topsep=0pt, leftmargin=*]
 	\item Direct: Touchscreen, "grasping" virtual 3d objects
 	\item Indirect: Mouse movement translated to cursor position (virtual cursor can directly/indirectly manipulate virtual content)
 \end{itemize}
 
-\textit{Absolute / relative} \smallskip
+\columnbreak
+
+\textit{Absolute / Relative} \smallskip
 
 \begin{itemize}[itemsep=-5pt, topsep=0pt, leftmargin=*]
 	\item Absolute: Position of input mapped to position of output (e.g. drawing tablet)
@@ -35,7 +37,7 @@ Dialogue is between fundamentally dissimilar agents-both in perception and proce
 \end{itemize}
 
 
-\textit{Position control / rate control} \smallskip
+\textit{Position control / Rate control} \smallskip
 
 
 \begin{itemize}[itemsep=-5pt, topsep=0pt, leftmargin=*]
@@ -45,7 +47,7 @@ Dialogue is between fundamentally dissimilar agents-both in perception and proce
 \textit{Degrees of freedom} \smallskip
 
 \begin{itemize}[itemsep=-5pt, topsep=0pt, leftmargin=*]
-	\item Examples: only 2D position along surface (2 DoF), 3D position and rotatoin in mid-air (6 DoF), or other combination (3D position + rotation around one axis : 4 DoF)
+	\item Examples: only 2D position along surface (2 DoF), 3D position and rotation in mid-air (6 DoF), or other combination (3D position + rotation around one axis : 4 DoF)
 \end{itemize} \medskip
 
 \textit{Isotonic / elastic / isometric} \smallskip
@@ -59,7 +61,7 @@ Dialogue is between fundamentally dissimilar agents-both in perception and proce
 The performance depends on the human (bandwidth of muscle groups connected to input device), the device (effective bandwidth of input device) 
 and application (precision requirements of the task). \medskip
 
-\textbf{Effectiveness} \smallskip
+\textbf{Effectiveness}
 
 \begin{multicols}{2}
     \begin{itemize}[itemsep=-5pt, topsep=0pt, leftmargin=*]
@@ -77,7 +79,7 @@ and application (precision requirements of the task). \medskip
 
 \textbf{Design Space by Card et al} \smallskip
 
-Input device as six-tuple: (M, In, S, R, Out, W) \smallskip
+Input device as six-tuple: (M, In, S, R, Out, W)
 
 \begin{multicols}{2}
     \begin{itemize}[itemsep=-5pt, topsep=0pt, leftmargin=*]
@@ -115,13 +117,13 @@ Input device as six-tuple: (M, In, S, R, Out, W) \smallskip
 
 \textit{Touch Input} \smallskip
 
-Issues with touch: It's noisy and touch area larger than the target. Also visual occlusions. Mobility increaases accuracy issues. 
+Issues with touch: It's noisy and touch area larger than the target. Also visual occlusions. Mobility increases accuracy issues. 
 
 \begin{center}
 	\includegraphics[width=\linewidth]{touch_experiment.png}
 \end{center}
 
-We record every trial as a dot at the touch location. Without influence of independent variables should result in circles. If the locations fall into clusters we can compensate if condition is know. \medskip
+We record every trial as a dot at the touch location. Without influence of independent variables should result in circles. If the locations fall into clusters we can compensate if condition is known. \medskip
 
 \textit{Minimum Touch Input Size}
 
@@ -135,6 +137,8 @@ We record every trial as a dot at the touch location. Without influence of indep
 \begin{center}
 	\includegraphics[width=\linewidth]{representing_input.png}
 \end{center}
+
+\columnbreak
 
 \textit{Sequence decoding} \smallskip
 
@@ -166,7 +170,7 @@ One token per hypothesis per obervation.
 	\includegraphics[width=\linewidth]{substitution_only_decoder.png}
 \end{center}
 
-\textit{Bream Pruning} \smallskip
+\textit{Beam Pruning} \smallskip
 
 we have an infinite search space but only a few plausible hypothesis. We prevent propagation of unlikely tokens. 
 
@@ -189,7 +193,7 @@ Probabilities for the decoder come from Language models. Language models are the
 A vast amount of letter combinations is unlikely to be written. These models capture valid letter and word sequences and assign them probabilities. 
 These probabilities can be leveraged to infer or predict what users want to write, based on what they have already written. \medskip
 
-The simplest models are uni- or bigrams. (Unigram contains one token only and bigrams obviously two). \medskip
+The simplest models are uni- or bigrams. (Unigram contains one token/word/char only and bigrams obviously two). \medskip
 
 \textit{Trigram Model}
 
@@ -205,7 +209,7 @@ The simplest models are uni- or bigrams. (Unigram contains one token only and bi
 
 \textit{Advanced statistial language models} \smallskip
 
-Recurrent neural network (RNN) and Generative Pre-trained Transformers(GPT) are able to capture more complex relationsships for many to many token mappings. 
+Recurrent neural network (RNN) and Generative Pre-trained Transformers (GPT) are able to capture more complex relationsships for many to many token mappings. 
 
 \medskip
 
@@ -225,3 +229,6 @@ We can then combine probabilities from the touch model with a language model to 
 \end{itemize}
 
 (Check slides if you want to see more on these).
+
+
+\columnbreak

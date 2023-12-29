@@ -2,7 +2,7 @@
 
 \textbf{Human vs Computer}
 
-\textit{Strengths of human} \medskip
+\textit{Strengths of human} \smallskip
 
 \begin{itemize}[itemsep=-5pt, topsep=0pt, leftmargin=*]
     \item intuition
@@ -11,13 +11,13 @@
     \item recognizing complex signals (speech etc.)
     \item recognizing complex configurations (scenes etc.)
     \item adaption to unexpected situations
-    \item learniung aptitude
+    \item learning aptitude
 \end{itemize}
 
 \medskip
 
 
-\textit{Strengths of computer} \medskip
+\textit{Strengths of computer} \smallskip
 
 \begin{itemize}[itemsep=-5pt, topsep=0pt, leftmargin=*]
     \item measuring and counting
@@ -33,7 +33,7 @@
 \textbf{Model Human Processor} \smallskip
 
 
-We can look at humans as an information processor. Taking the computers output as input and after processing the information outputting the input for the computer. \smallskip
+We can look at humans as an information processor. Taking the computers output as input and after processing outputting processed information as input for the computer. \smallskip
 
 The humans perception, memory and motor system can be applied to estimate execution time, error rates, training effects for simple stimulation /reaction interactions and system parameters. \smallskip
 
@@ -41,7 +41,10 @@ The humans perception, memory and motor system can be applied to estimate execut
 	\includegraphics[width=\linewidth]{information_processing.png}
 \end{center}
 
-We look at three main processors with associated memory.
+
+\columnbreak
+
+We look at three main processors with associated memory: \smallskip
 
 \textit{Perceptual System} \smallskip
 
@@ -49,13 +52,13 @@ Containing sensors and buffers. \medskip
 
 \textit{Cognitive System} \smallskip
 
-Containing working memory and content symolically coded \medskip
+Containing working memory and content symbolically coded \medskip
 
 \textit{Motor System} \smallskip
 
 Contains movements. \medskip
 
-Each processor has associated runtime. Overall runtime is sum of these.  \medskip
+Each processor has associated runtime. Overall runtime is sum of them.  \medskip
 
 \textbf{Perception (Visual System)}
 
@@ -69,24 +72,24 @@ Each processor has associated runtime. Overall runtime is sum of these.  \medski
 
 \medskip
 
-Rods are very light sensitive and have a slow response time. Are located in the periphery of the fovea. 120 million per eye, have maximum sensitivity at 500nm. \medskip
+Rods are very light sensitive and have a slow response time. They are located in the periphery of the fovea. 120 million per eye, have maximum sensitivity at 500nm. \medskip
 
 Cones are fast in responding and concentrated at the fovea. 6 million per eye. Three types for blue (S type, 420nm), green (M type, 534nm) and red (L type, 564nm). \medskip
 
 
 \textit{Visual Field} \smallskip
 
-Sharp vision withing 2 degree radius of fovea. Fine detail. Peripheral vision has decreased visual acuity with distance from fovea. Horizontal visual field is 60 degrees nasally and 90 degrees temporally. Verticual visual field is 60 degrees up and 70 degrees down. \medskip
+Sharp vision within 2 degree radius of fovea. Fine detail. Peripheral vision decreases in visual acuity with distance from fovea. Horizontal visual field is 60 degrees nasally and 90 degrees temporally. Verticual visual field is 60 degrees up and 70 degrees down. \medskip
 
 Useful field of view is rather small (1-4 degrees for high character density and max 15 degrees for low character density.) We use this in Foveated Rendering to reduce details in the outer parts (for instance with eye tracking). \medskip
 
 \textit{Eye movement} \smallskip
 
-Saccades are repositioning of fovea. The take around 30ms with an amplitude of max 600degrees per second. Perception is greatly decreased.\medskip
+Saccades are the process of repositioning the fovea. They take around 30ms with an amplitude of max 600degrees per second. Perception is greatly decreased.\medskip
 
-Fixations are dwelling on one point. Its between saccades. It takes around 90 percent of the visual time. Take around 150 to 600 ms. \medskip
+Fixations are dwelling on one point. Fixations happen in between saccades. It takes around 90 percent of the visual time. Take around 150 to 600 ms. \medskip
 
-Gaze mvoements are context dependent of foreknowledge, attitute, task and predisposition. \medskip
+Gaze movements are context dependent of foreknowledge, attitute, task and predisposition. \medskip
 
 \textit{Reading} \smallskip
 
@@ -94,14 +97,14 @@ Reading is a sequential loop of fixation and saccades. In average around 230ms f
 
 \textbf{(Visual) Attention} \smallskip
 
-We have great gaps in our perception. Interpretation is much sparser than one might assume. Perception of obkects requires lots of attention. Attention has to be directed. \medskip
+We have great gaps in our perception. Interpretation is much sparser than one might assume. Perception of objects requires lots of attention. Attention has to be directed. 
 Perceptual processor receives and buffers signals. One buffer per sensory channel. Perception time is around 100ms (ranging 50-200ms). \medskip
 
 \textit{Bloch's law} \smallskip
 
 $$R = I * t$$
 
-Where R is response, I is intensity and t is exposure time. For t < 100ms, we asusme R constant. As a consequence we have limits on frame-rates (min 10Hz). \medskip
+Where R is response, I is intensity and t is exposure time. For $t < 100$ms, we assume R constant. As a consequence we have limits on frame-rates (min 10Hz). \medskip
 
 \textbf{Cognitive Processor} \smallskip
 
@@ -111,15 +114,15 @@ Processing time is around 70ms (25-170). Operates on chunks of information. For 
 
 \textit{Short term memory} \smallskip
 
-Working memory, responsible for intermediate products of thinking and representations of perceptual system. Holds activated item from long term memory. Capacity is limited to 5-9 units (augmented by LTM). Pure capacity is aroun 2-4 units. Decay rate and capacity can be varied depdending on strategy etc. but decreases strongly with increased items. \medskip
+Working memory, responsible for intermediate products of thinking and representations of perceptual system. Holds activated item from long term memory. Capacity is limited to 5-9 units (augmented by LTM). Pure capacity is around 2-4 units. Decay rate and capacity can be varied depending on strategy etc. but decreases strongly with increased items. \medskip
 
 \textit{Long term memory} \smallskip
 
-Declarative (facts etc.) and procedural (how to do stuff) parts. Practically unlimited capacity with no decay time. Retrievel depends on associations with for instance eyternal stimuli. It is fast-read, slow-write. 
+Declarative (facts etc.) and procedural (how to do stuff) parts. Practically unlimited capacity with no decay time. Retrieval depends on associations with for instance external stimuli. It is fast-read, slow-write. 
 
 \textit{Designing for memory} \smallskip
 
-We try to deign for memory through grouping of related functionalities and use familiar structures. We also use recognition instead of recall. \medskip
+We try to design for memory through grouping of related functionalities and usage of familiar structures. We also use recognition instead of recall. \medskip
 
 \textbf{Motor Processor} \smallskip
 
@@ -129,7 +132,7 @@ The average processing time is the sum of time needed for the perceptual, cognit
 
 Models throughput in aimed movements such as reaching for a control in the cockpit or clicking on icons with a mouse. Is very powerful and widely used. Holds in many circumstances, also under water and intoxicated. Allows for comparison among different experiments. \medskip
 
-Originally the task was to touch the centerplate with a pencil, without touching the error plate on the sides. Generally the task is to predict the time to hit a target as a function of distance and size. \medskip
+Originally the task was to touch a centerplate with a pencil, without touching the error plates on the sides. Generally the task is to predict the time to hit a target as a function of distance and size. \medskip
 
 Index of difficulty
 $$I_D = log_2(2D/W)$$
@@ -137,7 +140,7 @@ $$I_D = log_2(2D/W)$$
 \textit{Index of Performance or Throughput} \smallskip
 
 ID = information (nr of bits) required to specify movement (amplitude within given tolerance)\smallskip
-IP is index of performance. 
+IP = index of performance. 
 
 $$IP = ID / MT $$(is in bits/sec)
 Depends on input device and limb. \smallskip
@@ -158,7 +161,7 @@ We find that doubling the distance adds roughly a constant to execution time (Lo
 
 \textit{Fitt's Law in practice} \smallskip
 
-We can add the last pixel of buttons on the left side, to increase to effective Width of "almost infinite". \smallskip
+We can add the last pixel of buttons on the left side, to increase the effective Width of "almost infinite". \smallskip
 
 Larger fields can be clicked more easily. \medskip
 
@@ -194,7 +197,7 @@ Performance of use depends on human (bandwidth of muscle groups), application (p
 
 \textit{Visual and Proprioceptive Feedback Loop} \smallskip
 
-FIrst we observe handposition, then we plan the movement, we perform the hand movement and finally asses the error to expected position. This is a loop and gets repeated until desired movement is finished. 
+First we observe handposition, then we plan the movement, we perform the hand movement and finally asses the error to expected position. This is a loop and gets repeated until desired movement is finished. 
 
 
 \begin{center}
@@ -232,6 +235,7 @@ $$ MT = I_M I_D $$
 $$ I_M = \text{Index of motion} \left( \frac{\text{sec}}{\text{bits}} \right) $$
 
 
+\columnbreak
 
 
 
